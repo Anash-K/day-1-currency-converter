@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/3977e585f7.js" crossorigin="anonymous"></script>
+
+    <title>currency converter</title>
+</head>
+
+<body class="bg-gray-700">
+    <div class="container">
+        <h1 class="heading">currency converter</h1>
+        <form action="">
+            <div class="user_input">
+                <input type="number" value="100" class="input">
+            </div>
+            <div class="converter">
+                <!-- <h2 class="sub_haeding">from</h2> -->
+                <div class="drop_box">
+                    <img src="https://flagsapi.com/IN/flat/64.png" class="img">
+                    <div class="select_box">
+                        <select name="from" id="country_from">
+                           
+                        </select>
+                    </div>
+                </div>
+                <h2 class="sub_haeding"><i class="fa-solid fa-arrow-right"></i></h2>
+                <div class="drop_box">
+                    <img src="https://flagsapi.com/AF/flat/64.png" class="img">
+                    <div class="select_box">
+                        <select name="to" id="country_from">
+                           
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="subbtn">
+                <button class="btn" >change</button>
+            </div>
+            
+        </form>
+    </div>
+    <script src="./app.js"></script>
+    <script src="./code.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+
+@layer components{
+
+    .container{
+        @apply mt-11 max-w-fit mx-auto bg-slate-600 py-20 px-5 border-4 border-violet-950;
+        
+    }
+
+    .heading{
+        @apply text-black text-center text-4xl capitalize mb-6;
+    }
+
+    .sub_haeding{
+        @apply text-white capitalize text-2xl;
+    }
+
+    .user_input{
+        @apply text-center mb-5;
+    }
+
+    .input{
+        @apply px-2 rounded py-3 font-bold;
+    }
+
+    .converter{
+        @apply flex items-center gap-x-10 justify-center;
+    }
+
+    .drop_box{
+        @apply flex items-center gap-x-5;
+    }
+
+    .select{
+        @apply w-dvw border-2  border-violet-950;
+    }
+
+    .btn{
+        @apply mx-auto text-center bg-slate-400 py-1 px-5 capitalize font-bold mt-5 hover:opacity-80;
+    }
+
+    .subbtn{
+        @apply text-center;
+    }
+    
+}
